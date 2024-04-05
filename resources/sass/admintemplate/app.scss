@@ -1,0 +1,52 @@
+// // Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// // Variables
+//@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Admin Homepage template
+@import 'adminkit';
+
+.pagination-container .page-link {
+    color: #646a6f !important;
+  }
+
+.pagination-container .page-item.active .page-link {
+    background-color: #222e3c !important;
+    border-color: #222e3c;
+    color: white !important;
+}
+
+.form-select-sm{
+    border: 1px solid #ced4da;
+}
+
+//Image preview
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 10%;
+  }
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 40%;
+    left: 30%;
+    top: 20%;
+}
+
+.pdf-icon {
+    font-size:18px;
+    color:red;
+    margin-right:4px;
+}
+
+.hover-color:hover {
+    color: #3b7ddd !important;
+}
